@@ -40,7 +40,7 @@ class Item(Resource):
             help="This field cannot be left blank"
         )
         data = parser.parse_args()
-
+        # print(data['another']) key error
         item = next(filter(lambda x: x['name'] == name, items), None)
         if item is None:
             item = {'name': name, 'price': data['price']}
