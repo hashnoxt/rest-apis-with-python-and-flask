@@ -3,14 +3,12 @@ from flask_restful import Resource, Api
 
 app = Flask(__name__)
 api = Api(app)
-items = []
 
+items = []
 
 class Item(Resource):
     def get(self, name):
-        for item in items:
-            if item['name'] == name:
-                return item
+        item = next(list(filter(lambda x: x['name'] == name, items)))
         return {'item': None}, 404
 
     def post(self, name):
