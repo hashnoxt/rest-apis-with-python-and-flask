@@ -5,5 +5,10 @@
     <file url="file://$PROJECT_DIR$/05/code/item.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/05/code/user.py" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/05/test.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/06/code/create_tables.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/06/code/models/item.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/06/code/models/user.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/06/code/resources/item.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/06/code/resources/user.py" dialect="GenericSQL" />
   </component>
 </project>
