@@ -2,6 +2,7 @@ import sqlite3
 
 from flask_restful import Resource, reqparse
 from models.user import UserModel
+<<<<<<< HEAD
 
 
 class User:
@@ -41,6 +42,8 @@ class User:
 
         connection.close()
         return user
+=======
+>>>>>>> a0b222b (server/app : final commit)
 
 
 
@@ -68,6 +71,5 @@ class UserRegister(Resource):
 
         user = UserModel(**data)
         user.save_to_db()
-
 
         return {'message': 'User created successfully'}, 201
