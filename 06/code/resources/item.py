@@ -19,13 +19,6 @@ class Item(Resource):
         help="Every item needs a store id."
     )
 
-    parser.add_argument(
-        'store_id',
-        type=int,
-        required=True,
-        help="Every item needs a store id."
-    )
-
     @jwt_required()
     def get(self, name):
 
